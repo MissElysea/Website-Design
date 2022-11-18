@@ -1,0 +1,123 @@
+/*Header*/
+
+header {
+    color: gray;
+    text-align: center;
+    font-size: 50px;
+    font-family: Sensation, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Containers */
+
+#container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+  
+  /* Border around the containers */
+
+  #container aside, #container main section, #container main div {
+    border: 5px solid white;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  /* Left side container*/
+  
+  aside {
+    width: 25%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background-color: grey;
+  }
+  
+
+  main {
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  /* Top Container */
+  
+  main section {
+    width: 95%;
+    height: 275px;
+    color: gray;
+  }
+  
+  #container main div {
+    width: 30%;
+    height: 275px;
+  }
+
+  /* Containers at the bottom of page */
+
+  .boxone {
+    background-color: #ffc0cb;
+  }
+
+  .boxtwo {
+    background-color: #0000ff;
+  }
+
+  .boxthree {
+    background-color: #008000;
+  }
+
+  p {
+    font-size: 20px;
+    color: gray;
+  }
+
+  .arial {
+    font-family: arial;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+
+  .times {
+    font-family: 'Times New Roman';
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+
+  .verdana {
+    font-family: Verdana;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+
+  .courier {
+    font-family: Verdana;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+
+  .calibri {
+    font-family: Verdana;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+
+  .georgia {
+    font-family: Verdana;
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
